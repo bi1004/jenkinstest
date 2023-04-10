@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 	
-	@GetMapping("getreq")
+	@GetMapping("test1")
 	public String m1() {
-		return "m1() return";
+		return "m1() 응답2";
 	}
 	
 
